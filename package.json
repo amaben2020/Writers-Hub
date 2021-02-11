@@ -1,0 +1,53 @@
+{
+    "name": "react-app",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@material-ui/core": "^4.11.0",
+        "axios": "^0.20.0",
+        "chart.js": "^2.9.3",
+        "dateformat": "^3.0.3",
+        "immer": "^8.0.0",
+        "material-ui": "^0.20.2",
+        "material-ui-core": "^5.0.1",
+        "radium": "^0.26.0",
+        "react": "^16.13.1",
+        "react-bootstrap": "^1.3.0",
+        "react-chartjs-2": "^2.10.0",
+        "react-dom": "^16.13.1",
+        "react-firebase": "^2.2.8",
+        "react-js-pagination": "^3.0.3",
+        "react-markdown": "^5.0.3",
+        "react-redux": "^7.2.1",
+        "react-rellax": "^1.0.3",
+        "react-router": "^5.2.0",
+        "react-router-dom": "^5.2.0",
+        "react-scripts": "1.1.5",
+        "react-tooltip": "^4.2.11",
+        "redux": "^4.0.5",
+        "redux-thunk": "^2.3.0",
+        "save": "^2.4.0",
+        "socket.io-client": "^3.0.5",
+        "styled-components": "^5.1.1",
+        "use-immer": "^0.4.2"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test --env=jsdom",
+        "eject": "react-scripts eject",
+        "precommit": "Lint-staged",
+        "lint": "eslint src"
+    },
+    "Lint-staged": {
+        "src/**/*,{js,jsx,json,css}": [
+            "prettier --write",
+            "git add"
+        ]
+    },
+    "devDependencies": {
+        "eslint-config-prettier": "^6.11.0",
+        "eslint-plugin-prettier": "^3.1.4",
+        "prettier": "^2.0.5"
+    }
+}
